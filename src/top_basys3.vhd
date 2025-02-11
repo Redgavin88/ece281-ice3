@@ -58,6 +58,7 @@ architecture top_basys3_arch of top_basys3 is
     -- declare the component of your top-level design
 
     -- declare any signals you will need	
+    
   
 begin
 	-- PORT MAPS --------------------
