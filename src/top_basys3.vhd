@@ -74,7 +74,7 @@ begin
    A : ripple_adder
    port map (
             A => sw( 4 downto 1),
-            B => sw( 8 downto 5),
+            B => sw( 15 downto 12),
             Cin=> sw(0),
             S => led( 3 downto 0),
             Cout => led(15)
