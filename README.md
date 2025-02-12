@@ -21,4 +21,11 @@ Then it **elaborates** the entity defined by `$TB_ENTITY`
 
 Finally, the workflow **runs** the simulation. If successful then it will quietly exit with a `0` code.
 If any of the `assert` statements fail then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
-Assert statements of other severity levels will be reported, but not fail the workflow.
+Assert statements of other severity levels will be reported, but not fail the workflow.\
+## WAVE FORM
+![ICE 3 waveform]({F6348FF2-9FE4-470F-A749-65F5CF308BF6}.png)
+![Enity Sketch](image.png)
+
+## Documentation
+
+C3C Burke helped me undstand the concepts behind the declaration of switches and leds for the top_basys3.vhd.
